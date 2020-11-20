@@ -1,6 +1,8 @@
 # Gitty CLI (WIP)
 
-A simple dev workflow cli tool that.. todo
+CLI to help automate the initialise phase of git workflow. Creates local and remote GitHub repos and automates initial commits. 
+
+Stores GitHub credentials cross session.
 
 ## Getting Started
 
