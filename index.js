@@ -3,9 +3,7 @@ const chalk = require("chalk");
 const figlet = require("figlet");
 const clear = require("clear");
 
-const files = require("./lib/files");
 const github = require("./lib/github_credentials");
-const inquirer = require("./lib/inquirer");
 const repo = require("./lib/create_a_repo");
 
 gitty
@@ -50,6 +48,7 @@ gitty
 
       const url = await repo.createRemoteRepository();
       await repo.createGitIgnore();
+
       const complete = await repo.setupRepository();
       if (complete) {
         console.log(chalk.green("All Done!"));
@@ -80,6 +79,7 @@ gitty
   });
 
 gitty.parse(process.argv);
+
 if (!gitty.args.length) {
   gitty.help();
 }
