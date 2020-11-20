@@ -1,4 +1,4 @@
-# Gitty (WIP)
+# Gitty CLI (WIP)
 
 A simple dev workflow cli tool that.. todo
 
