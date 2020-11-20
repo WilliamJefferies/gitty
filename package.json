@@ -4,7 +4,8 @@
   "description": "A tool to help automate the initialize phase of your git workflow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js init && node index.js octocheck && node index.js create_repo"
   },
   "keywords": [
     "git",
