@@ -1,7 +1,7 @@
 {
   "name": "gitty",
   "version": "1.0.0",
-  "description": "A simple dev tool to help automate the initialisation phase of your git workflow",
+  "description": "A tool to help automate the initialize phase of your git workflow",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
